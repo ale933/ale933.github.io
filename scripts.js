@@ -108,7 +108,7 @@ function budinoAlLatteConLeMacchie() {
 
 
     document.getElementById('Clock').innerHTML = `${hours}:${minutes}:${seconds}`;
-    document.getElementById('titlee').innerHTML = `Clock | ${hours}:${minutes}`;
+    document.getElementById('titlee').innerHTML = `O'Clock | ${hours}:${minutes}`;
     document.getElementById('Day').innerHTML = `Today is ${dayy}`;
     document.getElementById('Month').innerHTML = `${monthh}`;
     document.getElementById('Year').innerHTML = `${year}`;
