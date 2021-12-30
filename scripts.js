@@ -8,6 +8,8 @@ function budinoAlLatteConLeMacchie() {
     var day = data.getDay();
     var dayy;
 
+    var number = data.getDate();
+
     var month = data.getMonth();
     var monthh;
 
@@ -106,10 +108,26 @@ function budinoAlLatteConLeMacchie() {
 
     //End month
 
+    if (number > 3) {
+        number = number + "th"
+    }
+
+    if (number == 1) {
+        number = number + "st"
+    }
+
+    if (number == 2) {
+        number = number + "nd"
+    }
+
+    if (number == 1) {
+        number = number + "rd"
+    }
+
 
     document.getElementById('Clock').innerHTML = `${hours}:${minutes}:${seconds}`;
     document.getElementById('titlee').innerHTML = "O'Clock | " + hours + ":" + minutes;
-    document.getElementById('Day').innerHTML = `Today is ${dayy}`;
+    document.getElementById('Day').innerHTML = `Today is ${dayy}, ${number}`;
     document.getElementById('Month').innerHTML = `${monthh}`;
     document.getElementById('Year').innerHTML = `${year}`;
 }
