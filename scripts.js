@@ -120,7 +120,7 @@ function budinoAlLatteConLeMacchie() {
         number = number + "nd"
     }
 
-    if (number == 1) {
+    if (number == 3) {
         number = number + "rd"
     }
 
