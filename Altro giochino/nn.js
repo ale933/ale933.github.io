@@ -1,3 +1,4 @@
 function n() {
-    new Notification("Hi", {body: "Wassup"})
+    new Notification.requestPermission();
+    new Notification("Hi", {body: "Wassup"});
 }
