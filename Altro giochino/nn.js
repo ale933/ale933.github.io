@@ -1,4 +1,3 @@
 function n() {
-    new Notification.requestPermission();
-    new Notification("Hi", {body: "Wassup"});
+    new Notification("Hi", {icon: "alarm-clockck.svg"});
 }
