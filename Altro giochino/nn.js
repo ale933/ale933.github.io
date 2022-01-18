@@ -1,3 +1,3 @@
 function n() {
-    new Notification("Hi")
+    new Notification("Hi", {body: "Wassup"})
 }
