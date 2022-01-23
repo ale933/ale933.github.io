@@ -28,31 +28,31 @@ function budinoAlLatteConLeMacchie() {
     }
 
     // Day
-    if (day == 1) {
+    if (day == 2) {
         dayy = "Monday";
     }
     
-    if (day == 2) {
+    if (day == 3) {
         dayy = "Tuesday";
     }
     
-    if (day == 3) {
+    if (day == 4) {
         dayy = "Wednesday";
     }
     
-    if (day == 4) {
+    if (day == 5) {
         dayy = "Thursday";
     }
     
-    if (day == 5) {
+    if (day == 6) {
         dayy = "Friday";
     }
     
-    if (day == 6) {
+    if (day == 7) {
         dayy = "Saturday";
     }
     
-    if (day == 7) {
+    if (day == 1) {
         dayy = "Sunday";
     }
     //End day
