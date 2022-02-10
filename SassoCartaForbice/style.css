@@ -1,5 +1,6 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 footer {
@@ -15,6 +16,69 @@ a {
     text-decoration: none;
     
 }
+
+#sassos::selection { background-color: lightgreen; color: green; }
+
+#catta::selection { background-color: lightskyblue; color: blue; }
+
+#fobbice::selection { background-color: #ffa8a8; color: #ff0000; }
+
+button {
+    width: 180px;
+    height: 80px;
+    font-size: 200%;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+#sasso {
+    color: green;
+    background-color: lightgreen;
+    border: green 2px solid;
+    
+}
+
+#carta {
+    color: blue;
+    background-color: lightskyblue;
+    border: blue 2px solid;
+    
+}
+
+#fobice {
+    color: #ff0000;
+    background-color: #ffa8a8;
+    border: red 2px solid;
+    
+}
+
+#sasso:hover {
+    font-size: 250%;
+}
+
+#carta:hover {
+    font-size: 250%;
+}
+
+#fobice:hover {
+    font-size: 250%;
+}
+
+#sasso:active {
+    background-color: rgb(98, 235, 98);
+
+
+}
+
+#carta:active {
+    background-color: rgb(101, 194, 252);
+}
+
+#fobice:active {
+    background-color: #fc8989;
+}
+
+
 
 a:hover {
 
