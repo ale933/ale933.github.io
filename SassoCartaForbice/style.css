@@ -5,7 +5,11 @@ body {
 
 footer {
     background-color: #303341;
-    position: relative;
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    left: 0;
+
 }
 
 a {
