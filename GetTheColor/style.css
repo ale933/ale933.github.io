@@ -1,0 +1,42 @@
+body {
+    font-family: "Helvetica Neue";
+    text-align: center;
+}
+#valueColor {
+    background-color: #ffffff80;
+}
+.entireSite {
+
+    border-radius: 3px;
+}
+
+/* .getColor {
+    display: flex;
+    align-items: center;
+} */
+
+#inputColor {
+    width: 150px;
+    height: 72px;
+    
+}
+
+input {
+    margin-block-end: 10px;
+}
+
+button{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    
+} 
+
+button:active{
+    background-color: #2b87ff;
+
+    
+} 
+
+
+
